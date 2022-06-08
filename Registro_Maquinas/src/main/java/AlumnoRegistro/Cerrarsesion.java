@@ -1,4 +1,4 @@
-package AlumnoRegistro;
+package MaestroRegistro;
 
 import java.io.IOException;
 import java.io.PrintWriter;

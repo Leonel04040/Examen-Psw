@@ -28,6 +28,14 @@
         <servlet-name>MaRegistro</servlet-name>
         <servlet-class>MaestroRegistro.MaRegistro</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>IniciosesionMaestro</servlet-name>
+        <servlet-class>MaestroRegistro.IniciosesionMaestro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CerrarsesionMa</servlet-name>
+        <servlet-class>MaestroRegistro.CerrarsesionMa</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>RegistroProblemaTecnico</servlet-name>
         <url-pattern>/RegistroProblemaTecnico</url-pattern>
@@ -55,6 +63,14 @@
     <servlet-mapping>
         <servlet-name>MaRegistro</servlet-name>
         <url-pattern>/MaRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IniciosesionMaestro</servlet-name>
+        <url-pattern>/IniciosesionMaestro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CerrarsesionMa</servlet-name>
+        <url-pattern>/CerrarsesionMa</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
