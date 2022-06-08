@@ -1,0 +1,378 @@
+/*#bienvendida{
+    background-color:burlywood;
+    position: absolute;
+    left: 450px;
+    width: 500px;
+}*/
+
+.bienvenida {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: violet;
+  top: 50px;
+}
+body{
+    text-align: center;
+}
+
+
+#iniciosesion{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+#maestro{
+    position: fixed;
+    left: 650px;
+    top: 200px;
+}
+
+#alumno{
+    position: fixed;
+    left: 650px;
+    top: 300px;
+}
+
+#Boton1{
+    width: 100px;
+    height: 40px;
+}
+
+#Boton2{
+    width: 100px;
+    height: 40px;
+}
+
+#Boton3{
+    width: 100px;
+    height: 40px;
+}
+
+#Boton4{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    background-color:#a5ae9d;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#colorformulario{
+    background-color: wheat;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#Boton5{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 60px;
+    top: 250px;
+    background-color: #a5ae9d;
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+#Boton6{
+    width: 100px;
+    height: 40px;
+    background-color: #a5ae9d;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#indicacion1{
+    background-color:#111b28;
+    position:static;
+    left: 300px;
+    width: 100%;
+    height: 40px;
+    
+}
+
+#retitulo{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+#campo1{
+    position:abstolute;
+    height: 25px;
+}
+
+#instrucciones2{
+  background-color:#111b28;
+    position:static;
+    left: 300px;
+    width: 100%;
+    height: 40px; 
+}
+
+#campoini{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#campoini2{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#Boton7{
+    width: 100px;
+    height: 40px;
+}
+
+#Boton8{
+    width: 100px;
+    height: 40px;
+}
+
+#titulo{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+#botonini1{
+    position: absolute;
+    left: 620px;
+    top: 210px;
+}
+
+
+
+#Boton9{
+   width: 130px;
+    height: 40px 
+}
+
+#botonini2{
+    position: absolute;
+    left: 620px;
+    top: 150px;
+}
+
+#Boton10{
+    width: 130px;
+    height: 40px 
+}
+
+#botonini3{
+    position: absolute;
+    left: 620px;
+    top: 330px;
+}
+
+#Boton11{
+    width: 130px;
+    height: 40px 
+}
+
+#botonini4{
+    position: absolute;
+    left: 620px;
+    top: 390px;
+}
+
+#Boton12{
+    width: 130px;
+    height: 40px 
+}
+
+#botonini5{
+    position: absolute;
+    left: 620px;
+    top: 270px;
+}
+
+#Boton13{
+    width: 130px;
+    height: 40px 
+}
+
+#botonini6{
+    position: absolute;
+    left: 620px;
+    top: 450px;
+}
+
+#Boton14{
+    width: 130px;
+    height: 40px 
+}
+
+#indicacion3{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 100%;
+}
+
+#Boton15{
+    width: 130px;
+    height: 40px;
+}
+
+#Boton16{
+    width: 130px;
+    height: 40px;
+    
+}
+
+#regiscampo1{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#regiscampo2{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#regiscampo3{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#regiscampo4{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#regiscampo5{
+    position:abstolute;
+    background-color:darksalmon;
+    height: 25px;
+}
+
+#indicaciones5{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 100%;
+}
+
+#Boton18{
+    width: 130px;
+    height: 40px;
+}
+
+#botonvolverinicio2{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+#botonregistromaq{
+    position: absolute;
+    left: 650px;
+    top: 350px;
+}
+
+#botonvolvermenu{
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
+
+#indicaciones5{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 600px;    
+}
+
+#botonvolverinicio5{
+    position: absolute;
+    left: 650px;
+    top: 35px;
+}
+
+#Boton19{
+    width: 130px;
+    height: 40px;
+}
+
+#botonreprob{
+    position: absolute;
+    left: 630px;
+    top: 250px;  
+}
+
+#botonvolveralinicio4{
+    position: absolute;
+    left: 630px;
+    top: 300px;   
+}
+
+#Boton17{
+    width: 180px;
+    height: 40px;
+}
+
+#Boton20{
+    width: 180px;
+    height: 40px;
+}
+
+#indicaciones4{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 100%; 
+}
+
+#elegirmaquina{
+    background-color:darkgray;
+    width: 100%;   
+    height: 25px;
+}
+
+#descripcionproblematecnico{
+    background-color:darkgray;
+    width: 100%;  
+    height: 25px;
+}
+
+#indicaciones5{
+    background-color:burlywood;
+    position:static;
+    left: 300px;
+    width: 600px; 
+}
+
+#volveralmenu1{
+    position: absolute;
+    left: 250px;
+    top: 225px;    
+}
+
+#Boton21{
+    width: 130px;
+    height: 40px;   
+}
