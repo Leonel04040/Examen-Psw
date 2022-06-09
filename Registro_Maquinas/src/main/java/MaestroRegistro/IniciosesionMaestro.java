@@ -52,7 +52,7 @@ public class IniciosesionMaestro extends HttpServlet {
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
         String password = request.getParameter("Password");
-        String email = request.getParameter("Correo");
+        String email = request.getParameter("Email");
         
         
         iniciarSesionMaestro(request,response,email,password);
@@ -65,7 +65,8 @@ public class IniciosesionMaestro extends HttpServlet {
             out.println("<title>Servlet IniciosesionMaestro</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet IniciosesionMaestro at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Debe de ingresar un usuario valido");
+            out.println("<button onclick=\"window.location='./iniciarsesionmaestro.html'\">Regresar</button>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -85,7 +86,9 @@ public class IniciosesionMaestro extends HttpServlet {
         if(rs.next()){
             nombre = rs.getString("nombres");
             primerApellido = rs.getString("primer_apellido");
-            segundoApellido = rs.getString("segundo_apellido");           
+            segundoApellido = rs.getString("segundo_apellido"); 
+            
+            session.setAttribute("email",email);
             session.setAttribute("nombre", nombre);
             session.setAttribute("primerApellido", primerApellido);
             session.setAttribute("segundoApellido", segundoApellido);

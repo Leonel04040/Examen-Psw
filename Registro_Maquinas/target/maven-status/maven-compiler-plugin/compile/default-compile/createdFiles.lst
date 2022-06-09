@@ -1,9 +1,9 @@
 AlumnoRegistro\Cerrarsesion.class
-AlumnoRegistro\MaquinaRegistro.class
 AlumnoRegistro\PerfildelUsuario.class
+AlumnoRegistro\MaquinaRegistro.class
 AlumnoRegistro\RegistroProblemaTecnico.class
 AlumnoRegistro\AlumRegistro.class
-MaestroRegistro\CerrarsesionMa.class
 MaestroRegistro\IniciosesionMaestro.class
 MaestroRegistro\MaRegistro.class
+MaestroRegistro\CerrarsesionMa.class
 AlumnoRegistro\Iniciosesion.class

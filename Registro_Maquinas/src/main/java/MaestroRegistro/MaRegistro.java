@@ -110,11 +110,10 @@ public class MaRegistro extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
-        
+        String email = request.getParameter("Email");
         String nombre = request.getParameter("Nombre");
         String primerApellido = request.getParameter("Primerapellido");
-        String segundoApellido = request.getParameter("Segundoapellido");
-        String correo = request.getParameter("Correo");
+        String segundoApellido = request.getParameter("Segundoapellido");        
         String password = request.getParameter("Password");
         int resultado = 0;
         PrintWriter out = response.getWriter();
@@ -127,7 +126,7 @@ public class MaRegistro extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<button onclick=\"window.location='./index.html'\">Inicio</button>");
-            resultado = altaCuenta(nombre, primerApellido, segundoApellido, correo, password);
+            resultado = altaCuenta( email, nombre, primerApellido, segundoApellido, password);
             if (resultado == 1) {
                 out.println("<h1>El registro fue satisfactorio</h1>");
             }    
@@ -135,7 +134,7 @@ public class MaRegistro extends HttpServlet {
           resultado = 0;
           mensajeError = e.getMessage();
           if(e.getErrorCode() == 1062){
-          out.println("<h1>El registro de la cuenta no fue satisfactorio debido a que ya existe un registro con el correo:"+correo+"</h1>");
+          out.println("<h1>El registro de la cuenta no fue satisfactorio debido a que ya existe un registro con el correo:"+email+"</h1>");
           }else{
               out.println("<h1>El registro no fue satisfactorio, codigo de error:"+e.getErrorCode()+": "+mensajeError+"</h1>");
           }
@@ -153,18 +152,18 @@ public class MaRegistro extends HttpServlet {
     }
 
     private int altaCuenta(
+            String email,
             String nombre,
             String primerApellido,
             String segundoApellido,
-            String correo,
             String password) throws SQLException {
-        String isql = "insert into cuenta_maestro(nombres,primer_apellido,segundo_apellido,correo,password)"
+        String isql = "insert into cuenta_maestro(email,nombres,primer_apellido,segundo_apellido,password)"
                 + " values(?,?,?,?,?)";
         PreparedStatement ps = con.prepareStatement(isql);
-        ps.setString(1, nombre);
-        ps.setString(2, primerApellido);
-        ps.setString(3, segundoApellido);
-        ps.setString(4, correo);
+        ps.setString(1, email);
+        ps.setString(2, nombre);
+        ps.setString(3, primerApellido);
+        ps.setString(4, segundoApellido);
         ps.setString(5, password);
         int resultado = ps.executeUpdate();
         ps.close();
