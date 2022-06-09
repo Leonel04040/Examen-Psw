@@ -58,7 +58,9 @@ public class Iniciosesion extends HttpServlet {
         String usuario = request.getParameter("Boleta");
         String password = request.getParameter("Password");
         
-        iniciarSesion(request,response,usuario,password);
+        
+        iniciarSesionAlumno(request,response,usuario,password);
+        
         
         
         try ( PrintWriter out = response.getWriter()) {
@@ -75,7 +77,7 @@ public class Iniciosesion extends HttpServlet {
             out.println("</html>");
         }
     }
-    private void iniciarSesion(HttpServletRequest request,HttpServletResponse response,String usuario, String password) throws SQLException, IOException{
+    private void iniciarSesionAlumno (HttpServletRequest request,HttpServletResponse response,String usuario, String password) throws SQLException, IOException{
         String isql = "SELECT * FROM cuenta_alumno as ca where ca.boleta=  ? and  ca.password = ?;";
         PreparedStatement ps = con.prepareStatement(isql);
         ps.setString(1, usuario);
@@ -107,6 +109,10 @@ public class Iniciosesion extends HttpServlet {
         rs.close();
         ps.close();
     }
+    
+    
+        
+
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

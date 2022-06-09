@@ -3,6 +3,7 @@
     Created on : 17 abr. 2022, 23:22:56
     Author     : lenin
 --%>
+
 <%
   String usuario = (String)session.getAttribute("usuario");
   String nombre = (String)session.getAttribute("nombre");
@@ -17,6 +18,7 @@
     }
  %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
