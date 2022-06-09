@@ -5,49 +5,74 @@
     width: 500px;
 }*/
 
-.bienvenida {
+bienvenida {
   margin: auto;
   width: 50%;
   padding: 10px;
   background-color: violet;
   top: 50px;
+  color: white ;
 }
 body{
     text-align: center;
+     background-color: #924975;
+        color: white;
 }
 
 
 #iniciosesion{
     position: absolute;
-    right: 200px;
-    top: 30px;
+    left: 700px;
+    top: 200px;
 }
 
 #maestro{
     position: fixed;
-    left: 650px;
-    top: 200px;
+    left: 700px;
+    top: 400px;
 }
 
 #alumno{
     position: fixed;
-    left: 650px;
-    top: 300px;
+    left: 700px;
+    top: 600px;
+}
+#admin{
+    position: fixed;
+    left: 1000px;
+    top: 200px;
+}
+#iniciosesion1{
+    position: fixed;
+    left: 1000px;
+    top: 400px;
 }
 
 #Boton1{
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
+    border-radius: 1rem;
 }
 
 #Boton2{
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
+    border-radius: 1rem;
 }
 
 #Boton3{
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
+    border-radius: 1rem;
 }
 
 #Boton4{
@@ -56,16 +81,55 @@ body{
     position: absolute;
     left: 60px;
     top: 150px;
-    background-color:#a5ae9d;
     color: #fff;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
     border-radius: 15px;
 }
 
 #colorformulario{
-    background-color: wheat;
+    background-color: #8e1d5b7f;
     width: 50%;
     position: relative;
     left: 25%;
+    
+}
+#boleta{
+    background-color: #740040;
+    border-color: #740040;
+}
+#nombre{
+    background-color: #740040;
+    border-color: #740040;
+}
+#primerapellido{
+    background-color: #740040;
+    border-color: #740040;
+}
+#segundoapellido{
+    background-color: #740040;
+    border-color: #740040;
+}
+#correo{
+    background-color: #740040;
+    border-color: #740040;
+}
+#semestre{
+    background-color: #740040;
+    border-color: #740040;
+}
+#turno{
+    background-color: #740040;
+    border-color: #740040;
+}
+#password{
+    background-color: #740040;
+    border-color: #740040;
+}
+#password2{
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton5{
@@ -74,8 +138,10 @@ body{
     position: absolute;
     left: 60px;
     top: 250px;
-    background-color: #a5ae9d;
     color: #fff;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
     border-radius: 15px;
 }
 
@@ -83,16 +149,18 @@ body{
 #Boton6{
     width: 100px;
     height: 40px;
-    background-color: #a5ae9d;
     color: #fff;
+    border-radius: 15px;
+    background-color: #740040;
+    border-color: #740040 ;
     border-radius: 15px;
 }
 
 #indicacion1{
-    background-color:#111b28;
+    background-color:#740040;
     position:static;
-    left: 300px;
-    width: 100%;
+    left: 550px;
+    width: 800px;
     height: 40px;
     
 }
@@ -109,12 +177,12 @@ h1{
 }
 
 #campo1{
-    position:abstolute;
+    position: abstolute;
     height: 25px;
 }
 
 #instrucciones2{
-  background-color:#111b28;
+  background-color:#740040;
     position:static;
     left: 300px;
     width: 100%;
@@ -122,25 +190,29 @@ h1{
 }
 
 #campoini{
-    position:abstolute;
-    background-color:darksalmon;
+    position: abstolute;
     height: 25px;
 }
 
 #campoini2{
-    position:abstolute;
-    background-color:darksalmon;
+    position: abstolute;
     height: 25px;
 }
 
 #Boton7{
     width: 100px;
     height: 40px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton8{
     width: 100px;
     height: 40px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #titulo{
@@ -158,68 +230,95 @@ h2{
     position: absolute;
     left: 620px;
     top: 210px;
+    color: #fff;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 
 
 #Boton9{
    width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
+    
 }
 
 #botonini2{
     position: absolute;
     left: 620px;
     top: 150px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton10{
     width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
+        
 }
 
 #botonini3{
     position: absolute;
     left: 620px;
     top: 330px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton11{
     width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonini4{
     position: absolute;
     left: 620px;
     top: 390px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton12{
     width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonini5{
     position: absolute;
     left: 620px;
     top: 270px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton13{
     width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonini6{
     position: absolute;
     left: 620px;
     top: 450px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton14{
     width: 130px;
-    height: 40px 
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #indicacion3{
@@ -232,46 +331,45 @@ h2{
 #Boton15{
     width: 130px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton16{
     width: 130px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
     
 }
 
 #regiscampo1{
     position:abstolute;
-    background-color:darksalmon;
     height: 25px;
 }
 
 #regiscampo2{
     position:abstolute;
-    background-color:darksalmon;
     height: 25px;
 }
 
 #regiscampo3{
     position:abstolute;
-    background-color:darksalmon;
     height: 25px;
 }
 
 #regiscampo4{
     position:abstolute;
-    background-color:darksalmon;
     height: 25px;
 }
 
 #regiscampo5{
     position:abstolute;
-    background-color:darksalmon;
     height: 25px;
 }
 
 #indicaciones5{
-    background-color:burlywood;
+    background-color:#740040;
     position:static;
     left: 300px;
     width: 100%;
@@ -280,28 +378,36 @@ h2{
 #Boton18{
     width: 130px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonvolverinicio2{
     position: absolute;
     left: 50px;
     top: 200px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonregistromaq{
     position: absolute;
     left: 650px;
     top: 350px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonvolvermenu{
     position: absolute;
     left: 650px;
     top: 400px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #indicaciones5{
-    background-color:burlywood;
+    background-color:#740040;
     position:static;
     left: 300px;
     width: 600px;    
@@ -311,56 +417,68 @@ h2{
     position: absolute;
     left: 650px;
     top: 35px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton19{
     width: 130px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonreprob{
     position: absolute;
     left: 630px;
-    top: 250px;  
+    top: 250px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #botonvolveralinicio4{
     position: absolute;
     left: 630px;
-    top: 300px;   
+    top: 300px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton17{
     width: 180px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #Boton20{
     width: 180px;
     height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
 
 #indicaciones4{
-    background-color:burlywood;
+    background-color:#740040;
     position:static;
     left: 300px;
     width: 100%; 
 }
 
 #elegirmaquina{
-    background-color:darkgray;
+    background-color:;
     width: 100%;   
     height: 25px;
 }
 
 #descripcionproblematecnico{
-    background-color:darkgray;
+    background-color:#740040;
     width: 100%;  
     height: 25px;
 }
 
 #indicaciones5{
-    background-color:burlywood;
+    background-color:#740040;
     position:static;
     left: 300px;
     width: 600px; 
@@ -374,5 +492,7 @@ h2{
 
 #Boton21{
     width: 130px;
-    height: 40px;   
+    height: 40px;
+    background-color: #740040;
+    border-color: #740040;
 }
